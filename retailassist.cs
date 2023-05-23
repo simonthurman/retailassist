@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 public static class OpenAIChatFunction
 {
     private static string endPoint = "https://openaisimont.openai.azure.com/";
-    private static string key = "62def2d3f3b74c7280ddaa1bee2afd2b";
+    private static string key = "";
     private static string engine = "hackchat";
     private static OpenAIClient myAI = new OpenAIClient(new Uri(endPoint), new AzureKeyCredential(key));
 
