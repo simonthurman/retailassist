@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "retailassist": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7159",
+      "launchBrowser": false
+    }
+  }
+}
